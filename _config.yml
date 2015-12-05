@@ -1,0 +1,24 @@
+markdown: rdiscount
+highlighter: pygments
+permalink: /:categories/:title.html
+name: "伊氏物语"
+markdown: rdiscount
+
+author: "伊迭"
+atom-baseurl: "http://x.yidie.org"
+disqus: ""
+
+navigations:
+  - title: 归档
+    class: fa fa-list-ul
+    href: /archive.html
+  - title: 标签
+    class: fa fa-tags
+    href: /tags.html
+  - title: 关于
+    class: fa fa-user
+    href: /about.html
+  - title: 订阅
+    class: fa fa-rss
+    href: /atom.xml
+
