@@ -21,6 +21,7 @@ body {
   font-family: telexregular, Hiragino Sans GB, Microsoft YaHei, sans-serif;
   color: #333;
   background-color: #f9f9f9;
+  background-image: url(../images/body-bg.jpg);
   -webkit-font-smoothing: antialiased; }
 
 ol, ul {
@@ -111,7 +112,8 @@ header {
 
 #content {
   margin: 0 auto;
-  line-height: 2em; }
+  line-height: 2em;
+  background-image: url(../images/content-bg.jpg); }
   @media screen and (min-width: 320px) {
     #content {
       width: 300px; } }
