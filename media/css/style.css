@@ -113,7 +113,7 @@ header {
 #content {
   margin: 0 auto;
   line-height: 2em;
-  background-image: url(../images/content-bg.jpg); }
+  /*background-image: url(../images/content-bg.jpg); */}
   @media screen and (min-width: 320px) {
     #content {
       width: 300px; } }
