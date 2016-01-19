@@ -60,7 +60,7 @@ tag:
 
 115个寂寞的夜晚啊……
 
-![总共花的时间](http://blogfile.qiniudn.com/%40%2Fiyidie%2Fimg%2F20160106016.png)
+![总共花的时间](http://blogfile.qiniudn.com/%40%2Fiyidie%2Fimg%2F2016010616.png)
 
 分年计算：
 
