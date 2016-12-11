@@ -1,7 +1,7 @@
 # Site settings
 title: 伊氏物语
 description: 何苦来哉，不如归去
-baseurl: "http://i.yidie.org" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://i.yidie.org" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
