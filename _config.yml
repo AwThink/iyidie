@@ -1,28 +1,44 @@
+# Site settings
+title: 伊氏物语
+description: 何苦来哉，不如归去
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://i.yidie.org" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: 伊迭
+user_description: 无介绍
+email: 
+twitter_username: iyidie
+github_username:  
+gplus_username:  
+disqus_username: 
+
+# Build settings
 markdown: kramdown
 highlighter: rouge
 permalink: /:categories/:title.html
-name: "伊氏物语"
-markdown: kramdown
 
-author: "伊迭"
-atom-baseurl: "http://i.yidie.org"
-disqus: ""
 
-navigations:
-  - title: 归档
-    class: fa fa-list-ul
-    href: /archive.html
-  - title: 标签
-    class: fa fa-tags
-    href: /tags.html
-  - title: 关于
-    class: fa fa-user
-    href: /about.html
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: 朱阁
+    url: /
+  - title: 流光
+    url: /about.html
+  - title: 纸签
+    url: /tags.html
+  - title: 柴扉
+    url: /archive.html
   - title: 订阅
-    class: fa fa-rss
-    href: /atom.xml
+    url: /feed.xml
 
-# Feed
-name: "伊氏物语"
-description: "伊氏物语"
-url: "http://i.yidie.org"
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
