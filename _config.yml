@@ -1,46 +1,11 @@
-# Site settings
-title: 伊氏物语
-description: 何苦来哉，不如归去
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://i.yidie.org" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+auto: true
 
-# User settings
-username: 伊迭
-user_description: 无
-email: 
-twitter_username: iyidie
-github_username:  
-gplus_username:  
-disqus_username: 
+#markdown: rdiscount
+highlighter: 'pygments'
+#paginate: 8
+permalink: /:title
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-permalink: /:categories/:title.html
-
-
-# html minify
-compress_html:
-  clippings: all
-  comments: all
-  endings: []
-  profile: false
-
-# Links to include in menu navigation
-# For external links add external: true
-links:
-  - title: 朱阁
-    url: /
-  - title: 流光
-    url: /about.html
-  - title: 纸签
-    url: /tags.html
-  - title: 柴扉
-    url: /archive.html
-  - title: 友链
-    url: /links.html
-  - title: 订阅
-    url: /feed.xml
-
-# exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules']
+title: Hyper Hamster
+url: http://mukosame.github.io
+feed: /atom.xml
+author_info: <a href="http://mukosame.github.io/">Mukosame</a>
