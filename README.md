@@ -6,3 +6,11 @@
 
 这是[mukosame.github.io](http://mukosame.github.io),感谢来自于beiyuu的设计(http://beiyuu.com/)
 
+# 修改记录
+
+## 1
+
+首页 把```Dump``` 改成 ```遗迹```  
+相应的，文件夹也改成了 yiji  
+再然后，_layouts/post.html 里修改侧边栏的名字，尝试把```{% for post in site.categories.dump%}```改成```{% for post in site.categories.yiji%}```  
+再再然后，建了篇测试文章，用的中文文件名：“2020-03-29-遗迹遗迹.md”
